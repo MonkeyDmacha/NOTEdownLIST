@@ -1,0 +1,16 @@
+/* Font helpers for Tailwind’s arbitrary font class */
+@layer utilities {
+  .font-indie   { font-family: 'Indie Flower', cursive; }
+  .font-patrick { font-family: 'Patrick Hand', cursive!important; }
+}
+
+/* (Optional) any extra custom tweaks can live here */
+/* Make placeholder use Patrick Hand font */
+input::placeholder {
+  font-family: 'Patrick Hand', cursive;
+}
+
+
+textarea::placeholder {
+  font-family: 'Patrick Hand', cursive;
+}
